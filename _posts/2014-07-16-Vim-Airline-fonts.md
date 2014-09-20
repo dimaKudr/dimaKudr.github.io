@@ -2,7 +2,7 @@
 layout: post
 category : Vim
 tagline: Vim Plugins
-tags : [Ubuntu, Vim, Pluging]
+tags : [Ubuntu, Vim, Plugins]
 ---
 {% include JB/setup %}
 
@@ -16,13 +16,12 @@ So the only task is to put fons in the appropriae folder.
 ## Get patched fonts
 Download the font of your choice from [powerline-fonts](https://github.com/Lokaltog/powerline-fonts).
 
-## Insall pached fonts
+## Insall patched fonts
 
 * Move the patched fonts to `~/.fonts`
 
-* Update font cache:
-
-    fc-cache -vf ~/.fonts/
+* Update font cache `fc-cache -vf ~/.fonts/`
 
 * Select patched font in your terminal profile. This will fix fonts for console Vim.
+
 * Select patched font in your GVim settings.
