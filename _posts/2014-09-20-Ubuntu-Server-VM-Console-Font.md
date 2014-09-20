@@ -18,7 +18,9 @@ On my laptop setting **GRUB_GFXMODE=1024x768x24** was the perfect size:
 <li>reflect changes to active bootloader <code>sudo update-grub</code></li>
 </ul>
 
+
 ## Step 2. Update Initial RAM Disk
+
 <ul>
 <li>edit console settings <code>sudo vim /etc/default/console-setup</code></li>
 <li>set <code>FONTFACE="TerminusBold"</code></li>
