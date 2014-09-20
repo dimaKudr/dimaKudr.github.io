@@ -2,7 +2,7 @@
 layout: post
 category : Ubuntu
 tagline: "Supporting tagline"
-tags : [Ubuntu Server VirtualBox console font]
+tags : [Ubuntu, Server, VirtualBox, console, font]
 ---
 {% include JB/setup %}
 
