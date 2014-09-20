@@ -6,8 +6,7 @@ tags : [Ubuntu, Vim, Plugins]
 ---
 {% include JB/setup %}
 
-vim-config created by Derek Wyatt was used as a base.
-https://github.com/derekwyatt/vim-config
+[vim-config](https://github.com/derekwyatt/vim-config) created by Derek Wyatt was used as a base.
 
 As I just started learning Vim, list of bundles used by Derek looks overwhelming to me. So I removed all of them except vim-scala. And will add some of them back in the future.
 
