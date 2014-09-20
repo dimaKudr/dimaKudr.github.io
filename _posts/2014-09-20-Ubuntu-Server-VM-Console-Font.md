@@ -12,18 +12,20 @@ Solution described below is the simplest that I have found. And what is more imp
 
 Configure grub2 to use a different display resolution and grow the tiny VirtualBox VM window.
 On my laptop setting **GRUB_GFXMODE=1024x768x24** was the perfect size:
-* edit grub settings `sudo vim /etc/default/grub`
-* set `GRUB_GFXMODE=1024x768x24`
-* reflect changes to active bootloader `sudo update-grub`
+<ul>
+<li>edit grub settings <code>sudo vim /etc/default/grub</code></li>
+<li>set <code>GRUB_GFXMODE=1024x768x24</code></li>
+<li>reflect changes to active bootloader <code>sudo update-grub</code></li>
+</ul>
 
 ## Step 2. Update Initial RAM Disk
 <ul>
-<li>edit console settings `sudo vim /etc/default/console-setup`</li>
+<li>edit console settings <code>sudo vim /etc/default/console-setup</code></li>
 <li>set <code>FONTFACE="TerminusBold"</code></li>
-<li>set 'FONTSIZE="24x12"'</li>
-- copy font file archive 'sudo cp /usr/share/consolefonts/Lat15-TerminusBold24x12.psf.gz /etc/console-setup'
-- go to console-setup folder 'cd /etc/console-setup'
-- unpack font file 'sudo gzip -d Lat15-TerminusBold24x12.psf.gz'
-- update init RAM disk 'sudo update-initramfs -u'
-- reboot to see changes 'sudo reboot'
+<li>set <code>FONTSIZE="24x12"</code></li>
+<li>copy font file archive <code>sudo cp /usr/share/consolefonts/Lat15-TerminusBold24x12.psf.gz /etc/console-setup</code></li>
+<li>go to console-setup folder <code>cd /etc/console-setup</code></li>
+<li>unpack font file <code>sudo gzip -d Lat15-TerminusBold24x12.psf.gz</code></li>
+<li>update init RAM disk <code>sudo update-initramfs -u</code></li>
+<li>reboot to see changes <code>sudo reboot</code></li>
 </ul>
