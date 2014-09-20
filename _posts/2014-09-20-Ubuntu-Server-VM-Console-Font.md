@@ -17,12 +17,13 @@ On my laptop setting **GRUB_GFXMODE=1024x768x24** was the perfect size:
 * reflect changes to active bootloader `sudo update-grub`
 
 ## Step 2. Update Initial RAM Disk
-- edit console settings 'sudo vim /etc/default/console-setup'
-- set 'FONTFACE="TerminusBold"'
-- set 'FONTSIZE="24x12"'
+<ul>
+<li>edit console settings `sudo vim /etc/default/console-setup`</li>
+<li>set <code>FONTFACE="TerminusBold"</code></li>
+<li>set 'FONTSIZE="24x12"'</li>
 - copy font file archive 'sudo cp /usr/share/consolefonts/Lat15-TerminusBold24x12.psf.gz /etc/console-setup'
 - go to console-setup folder 'cd /etc/console-setup'
 - unpack font file 'sudo gzip -d Lat15-TerminusBold24x12.psf.gz'
 - update init RAM disk 'sudo update-initramfs -u'
 - reboot to see changes 'sudo reboot'
-
+</ul>
