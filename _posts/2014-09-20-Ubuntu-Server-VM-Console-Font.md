@@ -2,7 +2,7 @@
 layout: post
 category : Ubuntu
 tagline: Ubuntu configuration
-tags : [Ubuntu, Server, VirtualBox, console, font]
+tags : [Ubuntu, VirtualBox, Console, font]
 ---
 {% include JB/setup %}
 
@@ -12,9 +12,9 @@ Solution described below is the simplest that I have found. And what is more imp
 
 Configure grub2 to use a different display resolution and grow the tiny VirtualBox VM window.
 On my laptop setting GRUB_GFXMODE=1024x768x24 was the perfect size:
-- edit grub settings 'sudo vim /etc/default/grub'
-- set 'GRUB_GFXMODE=1024x768x24'
-- reflect changes to active bootloader 'sudo update-grub'
+- edit grub settings `sudo vim /etc/default/grub`
+- set `GRUB_GFXMODE=1024x768x24`
+- reflect changes to active bootloader `sudo update-grub`
 
 ## Step 2. Update Initial RAM Disk
 - edit console settings 'sudo vim /etc/default/console-setup'
