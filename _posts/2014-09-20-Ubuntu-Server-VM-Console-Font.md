@@ -1,7 +1,7 @@
 ---
 layout: post
 category : Ubuntu
-tagline: "Supporting tagline"
+tagline: Ubuntu configuration
 tags : [Ubuntu, Server, VirtualBox, console, font]
 ---
 {% include JB/setup %}
