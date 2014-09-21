@@ -42,11 +42,11 @@ tags : [Ubuntu, VirtualBox, Networking]
 
 * Add following lines:
 
-```
-    address 192.168.56.4
-    netmask 255.255.255.0
-    gateway 192.168.56.1
-    dns-nameservers 192.168.1.1
-```
+
+    `address 192.168.56.4`
+    `netmask 255.255.255.0`
+    `gateway 192.168.56.1`
+    `dns-nameservers 192.168.1.1`
+
 
 Now you should be able to connect from Host to Guest and vice versa using ssh.
