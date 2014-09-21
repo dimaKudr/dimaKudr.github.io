@@ -29,24 +29,24 @@ tags : [Ubuntu, VirtualBox, Networking]
 
 * Edit its interfaces settings
 
-```
-    cd /etc/network/
-    sudo vim interfaces
-```
+{% highlight bash %}
+cd /etc/network/
+sudo vim interfaces
+{% endhighlight %}
 
 * Change eth0 to use static IP
 
-```
-    iface eth0 inet static
-```
+{% highlight bash %}
+iface eth0 inet static
+{% endhighlight %}
 
 * Add following lines:
 
-
-    `address 192.168.56.4`
-    `netmask 255.255.255.0`
-    `gateway 192.168.56.1`
-    `dns-nameservers 192.168.1.1`
-
+{% highlight bash %}
+address 192.168.56.4
+netmask 255.255.255.0
+gateway 192.168.56.1
+dns-nameservers 192.168.1.1
+{% endhighlight %}
 
 Now you should be able to connect from Host to Guest and vice versa using ssh.
