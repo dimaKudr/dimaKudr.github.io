@@ -22,28 +22,19 @@
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
       <a class="extra" href="{{ BASE_PATH }}/archive.html">Archive</a>
-      <a class="extra" href="{{ BASE_PATH }}/pages.html">Pages</a>
       <a class="extra" href="{{ BASE_PATH }}/categories.html">Categories</a>
       <a class="extra" href="{{ BASE_PATH }}/tags.html">Tags</a>
     </div>
-  
+
     {{ content }}
-  
+
     <div class="footer">
       <div class="contact">
         <p>
           {{ site.author.name }} - {{ site.author.email }}
-          <!--<a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />-->
         </p>
       </div>
-      <!--<div class="rss">
-        <a href="http://feeds.feedburner.com/username">
-          <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-        </a>
-      </div>-->
   </div>
- <!-- <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
--->
   {% include JB/analytics %}
 </body>
 </html>
