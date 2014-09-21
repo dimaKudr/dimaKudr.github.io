@@ -12,4 +12,4 @@ So you just should run in one of virtual consoles:
 
     sudo dpkg-reconfigure console-setup
 
-It will ask you ouple questons. I have selected TerminusBold font of 24x12 size. And that's it.
+It will ask you couple questons. As for me TerminusBold font of 24x12 size looks pretty good. And that's it.
