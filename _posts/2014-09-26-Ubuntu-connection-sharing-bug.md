@@ -15,7 +15,7 @@ This could be fixed by enabling Internet connection sharing in Host Network sett
 * From the network menu open "Edit Connections..." dialog
 * Select your current active Internet connection and click "Edit..."
 
-![connection-settings.png]({{ site.url }}/assets/images/connections-settings.png)
+![connection-settings.png]({{ site.url }}/assets/images/connection-settings.png)
 
 * In the "IPv4 Settings tab", select Method: "Shared to other computers"
 * Reconnect, so it gts new IP adresses
