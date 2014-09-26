@@ -6,7 +6,7 @@ tags : [Ubuntu, VirtualBox, Networking]
 ---
 {% include JB/setup %}
 
-Last time I described configure networking for Ubuntu Server running as a guest OS at VirtualBox {% post_url 2014-09-21-Ubuntu-VirtualBox-Networking %}.
+Last time I described how to [configure networking]({{ site.url }}{% post_url 2014-09-21-Ubuntu-VirtualBox-Networking %}) for Ubuntu Server running as a guest OS at VirtualBox.
 
 There is one more thing that should be mentioned. In that configuration **Guest does not have access to the Internet**.
 
