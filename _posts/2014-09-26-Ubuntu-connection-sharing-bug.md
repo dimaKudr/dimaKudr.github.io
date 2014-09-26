@@ -22,6 +22,7 @@ This could be fixed by enabling Internet connection sharing in Host Network sett
 * Click on "Connection Information" in the network menu to see new adresses
 * Update Guest OS network configuration with Host new arrdesses.
 
+
 ##Note!
 Unfortunately there is a bug in Ubuntu that brakes Host's connection to the Internet when you choose sharing mode. It described in details [here](https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/865001). And [here](https://help.ubuntu.com/community/Internet/ConnectionSharing) is related Ubuntu documentation article. I tried a workaround mentioned in comments to bug. For some reason it did not help.
 
