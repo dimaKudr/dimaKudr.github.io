@@ -21,7 +21,7 @@ Create a desktop file and install it:
 
 `gvim idea.desktop`
 
-Copy the following to the idea.desktop file:
+Copy the following to the idea.desktop file (More info on .desktop files `http://www.nautilus-actions.org/?q=node/377`):
 
     [Desktop Entry]
     Name=IntelliJ IDEA
