@@ -6,4 +6,4 @@ tags : [Ubuntu, Dash]
 ---
 {% include JB/setup %}
 
-Remove .desktop file `~/.local/share/applications/` and `/usr/share/applications/` folders if it exists.
+Remove .desktop file from `~/.local/share/applications/` and `/usr/share/applications/` folders if it exists.
