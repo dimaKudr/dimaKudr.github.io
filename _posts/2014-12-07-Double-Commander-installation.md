@@ -1,7 +1,7 @@
 ---
 layout: post
 category : DoubleCommander
-tagline: Double Commande installation
+tagline: Double Commander installation
 tags : [Double Commander]
 ---
 {% include JB/setup %}
