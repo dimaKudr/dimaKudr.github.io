@@ -47,4 +47,6 @@ For IDEA icon to be displayed in Dash, IDEA icon can be added as:
 
 `cp /opt/idea/bin/idea.png /usr/share/pixmaps/idea.png`
 
+Note: PNG file name should be equal to a value of Icon field in the .desktop file.
+
 That's it. Now, you can launch IDEA from Ubuntu Dash.
